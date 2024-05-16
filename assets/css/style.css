@@ -1,0 +1,444 @@
+
+header{
+    border-bottom: 1px solid #E4E4E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+header .logo h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+header .logo h3 span{
+    color: #69B99D;
+}
+header .options{
+    display: none;
+}
+header .menu{
+    display: flex;
+    margin-right: 1rem;
+}
+header .menu a{
+    text-decoration: none;
+    color: #69B99D;
+    font-size: larger;
+}
+header .menu a span{
+    color: #69B99D;
+}
+.linha .text h2,
+.sobreNos .text h2,
+.servicos .text h2,
+.comments h2,
+.contato .text h2,
+footer .footer .text h2{
+    font-size: calc(2rem + .1vw);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.linha .text p,
+.caixa .text p,
+.contato .ctt p,
+.contato .text p,
+.footer .text p{
+    color: #767676;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin: 1rem 0rem 2rem 0rem;
+}
+.caixao.text p,
+.caixao .line .box p{
+    color: #000;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin: 1rem 0rem 2rem 0rem;
+}
+.caixao .line .box p{
+    width: 18rem;
+}
+.linha{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+}
+.linha .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+button{
+    background-color: #69B99D;
+    border-radius: 5px;
+    border: none;
+    width: 13rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bolder;
+}
+button:hover{
+    transition: 0.15s;
+    border: 3px solid #668c8c;
+}
+.linha .image img{
+    width: 24rem;
+}
+.caixa, .caixao, .comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.caixa .text{
+    text-align: start;
+}
+br{
+    display: none;
+}
+.caixa.image img{
+    width: 24rem;
+}
+.caixao .text p span{
+    color: #69B99D;
+}
+.caixao.line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 62rem;
+}
+.caixao.line .box{
+    text-align: center;
+    width: 20rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 15px -5px;
+    border-bottom: 5px solid #69B99D;
+}
+.comments .treeDots{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.comments .treeDots .dot{
+    background-color: #E4E4E4;
+    border-radius: 100%;
+    height: 1rem;
+    width: 1rem;
+    margin: 0.3rem;
+}
+.comments .treeDots .dot:hover{
+    background-color: #69B99D;
+}
+.contato .text h2{
+    margin-right: 2rem;
+}
+.contato .text p{
+    margin-right: 2rem;
+}
+.contato .text button{
+    display: flex;
+    align-items: center;
+}
+.contato .text button p{
+    margin: 0rem 0rem 0rem 1rem;
+    color: #fff;
+}
+.contato .text button span{
+    font-size: large;                                                                                    
+}
+.contato .ctt{
+    margin: 3rem 0rem 3rem 0rem;
+}
+.contato .ctt p span{
+    text-align: center;
+    color: #69B99D;
+    margin-right: 1rem;
+    font-size: large;
+}
+footer{
+    background-color: #69B99D
+}
+.footer .icons span{
+    color: #fff;
+    font-size: larger;
+    margin: 0rem 1rem 0rem 0rem;
+}
+.footer .icons{
+    margin-bottom: 2rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20rem;
+    padding-left: 1rem;
+}
+.footer .text{
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer .text h2 span{
+    color: #fff;
+}
+.footer .text p{
+    color: #fff;
+}
+
+
+@media screen and (min-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 75rem;
+    }
+    header{
+        border-bottom: 1px solid #E4E4E4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+    }
+    header .começo ul{
+        display: flex;
+        margin-right: 4rem;
+        height: 4rem;
+        align-items: center;
+    }
+    header .começo ul li{
+        list-style: none;
+        margin: 0rem 1rem 0rem 1rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+    }
+    header .começo ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        padding-bottom: 1.2rem;
+        margin-top: 1.3rem;
+    }
+    header .começo ul li:hover a{
+        transition: .15s;
+        border-bottom: 2px solid #69B99D;
+        color: #69B99D;
+    }
+    header .logo{
+        margin-left: 6rem;
+    }
+    header .logo h3{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+    header .logo h3 span{
+        color: #69B99D;
+    }
+    .linha{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10rem;
+    }
+    .linha .text h2,
+    .caixa .text h2,
+    .caixao .text h2,
+    .comments h2{
+        font-size: calc(2rem + .1vw);
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .linha .text p,
+    .caixa .text p,
+    .caixao .text p,
+    .caixao .line .box p{
+        color: #767676;
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        margin: 1rem 0rem 2rem 0rem;
+    }
+    button{
+        background-color: #69B99D;
+        border-radius: 5px;
+        border: none;
+        width: 13rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: bolder;
+    }
+    button:hover{
+        transition: 0.15s;
+        border: 3px solid #668c8c;
+    }
+    .linha .image{
+        margin: 5rem 0rem 5rem 0rem;
+    }
+    .linha .image img{
+        width: 30rem;
+    }
+    .caixa{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+    .caixa.text{
+        margin-right: 2em;
+    }
+    .caixa .image .deco{
+        background-color: #CCF4E6;
+        width: 20rem;
+        height: 3rem;
+    }
+    .caixa .image img{
+        width: 30rem;
+    }
+    .caixa .text{
+        margin-top: 2.5rem
+    }
+    .caixao,
+    .comments{
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10rem;
+        flex-direction: column;
+    }
+    .caixao .text{
+        text-align: center;
+    }
+    .caixao.text p span{
+        color: #CCF4E6;
+    }
+    .caixao .line{
+        display: flex;
+        justify-content: space-between;
+        width: 60rem;
+    }
+    .caixao .line .box{
+        text-align: center;
+        width: 18rem;
+        height: 19rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 15px -5px;
+        border-bottom: 5px solid #69B99D;
+    }
+    .caixao .line .box img{
+        width: 4,5rem;
+        margin-top: 2rem;
+    }
+    .caixao .line .box h3{
+        font-size: calc(2vw + .5rem);
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .comments{
+        margin-top: 10rem;
+    }
+    .comments h2{
+        text-align: center;
+    }
+    .comments .com{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70rem;
+    }
+    .comments .com .box{
+        box-shadow: 0px 0px 15px -5px;
+        margin-top: 5rem;
+        padding: 2rem;
+        width: 33rem;
+        height: 15rem;
+    }
+    .comments .com .box .user{
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+    .comments .com .box .user img{
+        border-radius: 100%;
+    }
+    .comments .com .box .user p{
+        display: flex;
+        margin-left: 1rem;
+        align-items: center;
+        color: #767676;
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+    }
+    .comments .com .box p{
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+    }
+    .comments .treeDots{
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+    .comments .treeDots .dot{
+        background-color: #E4E4E4;
+        border-radius: 100%;
+        height: 1rem;
+        width: 1rem;
+        margin: 0.3rem;
+    }
+    .comments .treeDots .dot:hover{
+        background-color: #69B99D;
+    }
+    .contato .text button p{
+        margin-left: 1rem;
+    }
+    .contato .text button span{
+        font-size: large;
+    }
+    }
